@@ -1,3 +1,5 @@
+"use client";
+
 export default function BookingSection() {
   return (
     <>
@@ -9,7 +11,7 @@ export default function BookingSection() {
         Find your next exam <em>Appointments.<svg className="booking-underline" viewBox="0 0 240 12" preserveAspectRatio="none" aria-hidden="true"><path className="draw-path" d="M2 8 Q 60 1 120 6 T 238 5"/></svg></em>
         
       </h2>
-      <form className="booking-grid" onsubmit="return false">
+      <form className="booking-grid" onSubmit={(e) => e.preventDefault()}>
         <div>
           <label htmlFor="bk-exam">Exam Type</label>
           <div className="cs-wrap" data-cs>
