@@ -9,7 +9,7 @@ export default function BookingSection() {
         <span className="en-only">Find your next exam <em>Appointments.<svg className="booking-underline" viewBox="0 0 240 12" preserveAspectRatio="none" aria-hidden="true"><path className="draw-path" d="M2 8 Q 60 1 120 6 T 238 5"/></svg></em></span>
         <span className="ar-only">اعثر على موعدك التالي <em>المواعيد.<svg className="booking-underline" viewBox="0 0 240 12" preserveAspectRatio="none" aria-hidden="true"><path className="draw-path" d="M2 8 Q 60 1 120 6 T 238 5"/></svg></em></span>
       </h2>
-      <form className="booking-grid" onsubmit="return false">
+      <form className="booking-grid" onSubmit={(e) => e.preventDefault()}>
         <div>
           <label htmlFor="bk-exam"><span className="en-only">Exam Type</span><span className="ar-only">نوع الفحص</span></label>
           <div className="cs-wrap" data-cs>
