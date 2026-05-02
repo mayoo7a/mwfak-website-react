@@ -679,8 +679,3 @@ export default function SiteScripts() {
 
   return null;
 }
-    };
-  }, []);
-
-  return null;
-}

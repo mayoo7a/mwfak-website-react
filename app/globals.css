@@ -110,7 +110,7 @@
   /* ============== SVG ICON SPRITES (from icons and vector visuals.svg) ============== */
   .svg-ic{
     display:inline-block;
-    background-image: url('icons%20and%20vector%20visuals.svg');
+    background-image: url('/icons-and-vector-visuals.svg');
     background-repeat: no-repeat;
     background-size: 736px auto;
     width: 40px; height: 40px;
@@ -160,7 +160,7 @@
 
   /* Profile-icon avatars — uses the user-provided profile icon.svg */
   .profile-ic{
-    background-image: url('profile%20icon.svg');
+    background-image: url('/profile-icon.svg');
     background-repeat:no-repeat;
     background-size: contain;
     background-position: center;
@@ -171,7 +171,7 @@
   .ic-corner{
     display:block; position:absolute;
     width:30px; height:30px;
-    background-image: url('icons%20and%20vector%20visuals.svg');
+    background-image: url('/icons-and-vector-visuals.svg');
     background-repeat:no-repeat;
     background-size: 736px auto;
     pointer-events:none;
@@ -1622,7 +1622,7 @@
     left: 9%;
     width: 190px;
     height: 320px;
-    background-image: url('character3.svg');
+    background-image: url('/character3.svg');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -2036,7 +2036,7 @@
   }
   .b2b-points li::before{
     content:''; width:18px; height:18px;
-    background-image: url('icons%20and%20vector%20visuals.svg');
+    background-image: url('/icons-and-vector-visuals.svg');
     background-size: 736px auto;
     background-position: -443px -1365px;
     flex-shrink:0;
@@ -2126,7 +2126,7 @@
   .quote-section .q-corner{
     position:absolute;
     width:90px; height:90px;
-    background-image: url('icons%20and%20vector%20visuals.svg');
+    background-image: url('/icons-and-vector-visuals.svg');
     background-repeat:no-repeat;
     background-size: 2208px auto; /* 3× the natural 736 sprite */
     pointer-events:none;
