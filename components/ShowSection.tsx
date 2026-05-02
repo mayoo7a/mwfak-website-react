@@ -12,20 +12,20 @@ export default function ShowSection() {
               <div className="pm-notch" aria-hidden="true"></div>
               <div className="pm-h">
                 <div>
-                  <strong><span className="en-only">My Reservations</span><span className="ar-only">حجوزاتي</span></strong>
-                  <span><span className="en-only">Today · 4 active</span><span className="ar-only">اليوم · 4 نشطة</span></span>
+                  <strong>My Reservations</strong>
+                  <span>Today · 4 active</span>
                 </div>
               </div>
               <div className="pm-card">
-                <div className="pm-card-l"><span className="en-only">In progress</span><span className="ar-only">قيد التنفيذ</span></div>
-                <div className="pm-card-t"><span className="en-only">Driving License</span><span className="ar-only">رخصة القيادة</span></div>
+                <div className="pm-card-l">In progress</div>
+                <div className="pm-card-t">Driving License</div>
               </div>
               <div className="pm-row">
                 <div className="ic" aria-hidden="true">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
                 </div>
                 <div>
-                  <strong><span className="en-only">Residency Exam</span><span className="ar-only">فحص الإقامة</span></strong>
+                  <strong>Residency Exam</strong>
                   <span>09:00 AM</span>
                 </div>
               </div>
@@ -34,8 +34,8 @@ export default function ShowSection() {
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/></svg>
                 </div>
                 <div>
-                  <strong><span className="en-only">Municipality</span><span className="ar-only">البلدية</span></strong>
-                  <span><span className="en-only">Tomorrow</span><span className="ar-only">غداً</span></span>
+                  <strong>Municipality</strong>
+                  <span>Tomorrow</span>
                 </div>
               </div>
             </div>
@@ -45,12 +45,12 @@ export default function ShowSection() {
               <div className="pm-notch" aria-hidden="true"></div>
               <div className="pm-h">
                 <div>
-                  <strong><span className="en-only">Course Progress</span><span className="ar-only">تقدّم الدورة</span></strong>
+                  <strong>Course Progress</strong>
                   <span>CPR Basics</span>
                 </div>
               </div>
               <div className="pm-card purple">
-                <div className="pm-card-l"><span className="en-only">52% complete</span><span className="ar-only">مكتمل 52%</span></div>
+                <div className="pm-card-l">52% complete</div>
                 <div className="pm-card-t">CPR Basics</div>
               </div>
               <div className="pm-progress" aria-hidden="true"><span></span></div>
@@ -59,8 +59,8 @@ export default function ShowSection() {
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
                 </div>
                 <div>
-                  <strong><span className="en-only">Module 1</span><span className="ar-only">الوحدة 1</span></strong>
-                  <span><span className="en-only">Completed</span><span className="ar-only">مكتمل</span></span>
+                  <strong>Module 1</strong>
+                  <span>Completed</span>
                 </div>
               </div>
               <div className="pm-row">
@@ -68,8 +68,8 @@ export default function ShowSection() {
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
                 </div>
                 <div>
-                  <strong><span className="en-only">Module 2</span><span className="ar-only">الوحدة 2</span></strong>
-                  <span><span className="en-only">Completed</span><span className="ar-only">مكتمل</span></span>
+                  <strong>Module 2</strong>
+                  <span>Completed</span>
                 </div>
               </div>
             </div>
@@ -78,35 +78,35 @@ export default function ShowSection() {
       </div>
 
       <div className="reveal delay-2">
-        <span className="eyebrow"><span className="en-only">Mwafq APP</span><span className="ar-only">تطبيق موافق</span></span>
+        <span className="eyebrow">Mwafq APP</span>
         <h2 className="section-title">
-          <span className="en-only">Your medical journey,<br/><span className="ital">in your pocket.</span></span>
-          <span className="ar-only">رحلتك الطبية،<br/><span className="ital">في جيبك.</span></span>
+          Your medical journey,<br/><span className="ital">in your pocket.</span>
+          
         </h2>
         <p className="section-sub">
-          <span className="en-only">Built for everyday Saudi Arabia — book exams, track every status update, and download official reports anywhere, anytime.</span>
-          <span className="ar-only">صُمّم للحياة اليومية في المملكة — احجز الفحوصات، تابع التحديثات، وحمّل التقارير الرسمية في أي مكان وأي وقت.</span>
+          Built for everyday Saudi Arabia — book exams, track every status update, and download official reports anywhere, anytime.
+          
         </p>
         <div className="feature-list">
           <div className="f-item" data-cursor>
             <div className="check" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
             <div>
-              <strong><span className="en-only">Real-time exam tracking</span><span className="ar-only">تتبّع الفحص لحظياً</span></strong>
-              <span><span className="en-only">Watch every status from &#x201C;Accepted&#x201D; to &#x201C;Completed.&#x201D;</span><span className="ar-only">تابع الحالة من &#x201C;مقبول&#x201D; حتى &#x201C;مكتمل&#x201D;.</span></span>
+              <strong>Real-time exam tracking</strong>
+              <span>Watch every status from &#x201C;Accepted&#x201D; to &#x201C;Completed.&#x201D;</span>
             </div>
           </div>
           <div className="f-item" data-cursor>
             <div className="check" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
             <div>
-              <strong><span className="en-only">Reports in your pocket</span><span className="ar-only">التقارير في جيبك</span></strong>
-              <span><span className="en-only">One-tap PDF download the moment your results are ready.</span><span className="ar-only">حمّل التقرير كـ PDF بضغطة واحدة فور جاهزيته.</span></span>
+              <strong>Reports in your pocket</strong>
+              <span>One-tap PDF download the moment your results are ready.</span>
             </div>
           </div>
           <div className="f-item" data-cursor>
             <div className="check" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
             <div>
-              <strong><span className="en-only">&#x201C;Fit for Service&#x201D; badge</span><span className="ar-only">شارة &#x201C;صالح للخدمة&#x201D;</span></strong>
-              <span><span className="en-only">Official certification, delivered to your phone.</span><span className="ar-only">شهادة رسمية تصل إلى هاتفك.</span></span>
+              <strong>&#x201C;Fit for Service&#x201D; badge</strong>
+              <span>Official certification, delivered to your phone.</span>
             </div>
           </div>
         </div>

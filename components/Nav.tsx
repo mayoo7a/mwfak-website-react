@@ -7,32 +7,32 @@ export default function Nav() {
       <ul className="nav-links">
         <li>
           <a href="#home" data-cursor>
-            <span className="en-only">Home</span>
-            <span className="ar-only">الرئيسية</span>
+            Home
+            
           </a>
         </li>
         <li>
           <a href="#app" data-cursor>
-            <span className="en-only">App</span>
-            <span className="ar-only">التطبيق</span>
+            App
+            
           </a>
         </li>
         <li>
           <a href="#contact" data-cursor>
-            <span className="en-only">Contact us</span>
-            <span className="ar-only">تواصل معنا</span>
+            Contact us
+            
           </a>
         </li>
         <li>
           <a href="#about" data-cursor>
-            <span className="en-only">About us</span>
-            <span className="ar-only">من نحن</span>
+            About us
+            
           </a>
         </li>
         <li>
           <a href="#b2b" data-cursor>
-            <span className="en-only">B2B Portal</span>
-            <span className="ar-only">بوابة الشركات</span>
+            B2B Portal
+            
           </a>
         </li>
       </ul>
@@ -46,13 +46,9 @@ export default function Nav() {
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
           </svg>
         </button>
-        <button className="pill" id="langBtn" data-cursor aria-label="Switch language">
-          <span className="en-only">عربي</span>
-          <span className="ar-only">EN</span>
-        </button>
         <a href="#booking" className="btn btn-primary btn-liquid no-magnet" data-cursor style={{ padding: "10px 22px" }}>
-          <span className="en-only">Book Now</span>
-          <span className="ar-only">احجز الآن</span>
+          Book Now
+          
         </a>
         <button className="menu-tog" data-cursor aria-label="Menu">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden="true">

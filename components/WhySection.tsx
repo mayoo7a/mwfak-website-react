@@ -7,8 +7,8 @@ export default function WhySection() {
       <span className="why-rings" aria-hidden="true"></span>
       <div className="wrap">
     <h2 className="stats-title reveal">
-      <span className="en-only">Why Mwafq</span>
-      <span className="ar-only">لماذا موافق</span>
+      Why Mwafq
+      
     </h2>
     <div className="why-toolkit reveal delay-1" data-toolkit>
       <div className="why-row" role="tablist" aria-label="Why Mwafq capabilities" data-row>
@@ -28,20 +28,20 @@ export default function WhySection() {
           <div className="why-title-frame">
             <div className="why-title-track" data-title-track>
               <h3 className="why-title-item is-active">
-                <span className="en-only">Real-Time Tracking</span>
-                <span className="ar-only">تتبّع لحظي</span>
+                Real-Time Tracking
+                
               </h3>
               <h3 className="why-title-item">
-                <span className="en-only">Reports in Pocket</span>
-                <span className="ar-only">التقارير في جيبك</span>
+                Reports in Pocket
+                
               </h3>
               <h3 className="why-title-item">
-                <span className="en-only">Certified &amp; Reliable</span>
-                <span className="ar-only">معتمد وموثوق</span>
+                Certified &amp; Reliable
+                
               </h3>
               <h3 className="why-title-item">
-                <span className="en-only">Total Flexibility</span>
-                <span className="ar-only">مرونة كاملة</span>
+                Total Flexibility
+                
               </h3>
             </div>
           </div>

@@ -6,16 +6,16 @@ export default function BookingSection() {
   <div className="wrap">
     <div className="booking-card">
       <h2 className="booking-title">
-        <span className="en-only">Find your next exam <em>Appointments.<svg className="booking-underline" viewBox="0 0 240 12" preserveAspectRatio="none" aria-hidden="true"><path className="draw-path" d="M2 8 Q 60 1 120 6 T 238 5"/></svg></em></span>
-        <span className="ar-only">اعثر على موعدك التالي <em>المواعيد.<svg className="booking-underline" viewBox="0 0 240 12" preserveAspectRatio="none" aria-hidden="true"><path className="draw-path" d="M2 8 Q 60 1 120 6 T 238 5"/></svg></em></span>
+        Find your next exam <em>Appointments.<svg className="booking-underline" viewBox="0 0 240 12" preserveAspectRatio="none" aria-hidden="true"><path className="draw-path" d="M2 8 Q 60 1 120 6 T 238 5"/></svg></em>
+        
       </h2>
       <form className="booking-grid" onsubmit="return false">
         <div>
-          <label htmlFor="bk-exam"><span className="en-only">Exam Type</span><span className="ar-only">نوع الفحص</span></label>
+          <label htmlFor="bk-exam">Exam Type</label>
           <div className="cs-wrap" data-cs>
             <button type="button" id="bk-exam" className="cs-trigger" aria-haspopup="listbox" aria-expanded="false">
               <span className="cs-value cs-placeholder">
-                <span className="en-only">Select exam (Driving, Residency, …)</span><span className="ar-only">اختر الفحص (قيادة، إقامة…)</span>
+                Select exam (Driving, Residency, …)
               </span>
               <svg className="cs-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <polyline points="6 9 12 15 18 9"/>
@@ -46,11 +46,11 @@ export default function BookingSection() {
           </div>
         </div>
         <div>
-          <label htmlFor="bk-loc"><span className="en-only">City or Center</span><span className="ar-only">المدينة أو المركز</span></label>
+          <label htmlFor="bk-loc">City or Center</label>
           <input id="bk-loc" placeholder="City or center name." />
         </div>
         <div>
-          <label htmlFor="bk-date"><span className="en-only">Date</span><span className="ar-only">التاريخ</span></label>
+          <label htmlFor="bk-date">Date</label>
           <div className="cs-wrap dp-wrap" data-dp>
             <button type="button" id="bk-date" className="cs-trigger" aria-haspopup="dialog" aria-expanded="false">
               <span className="cs-value cs-placeholder">DD / MM / YYYY</span>
@@ -81,14 +81,14 @@ export default function BookingSection() {
         </div>
         <button type="submit" className="btn btn-primary no-magnet" data-cursor>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          <span className="en-only">Search Appointments</span><span className="ar-only">عرض المواعيد</span>
+          Search Appointments
         </button>
       </form>
       <div className="booking-notice">
         <span className="booking-corner" aria-hidden="true"></span>
         <p className="booking-note">
-          <span className="en-only">Please ensure you bring your valid National ID or Residency (Iqama) to the medical center to avoid appointment cancellation</span>
-          <span className="ar-only">يرجى إحضار الهوية الوطنية أو الإقامة سارية المفعول إلى المركز الطبي لتجنب إلغاء الموعد</span>
+          Please ensure you bring your valid National ID or Residency (Iqama) to the medical center to avoid appointment cancellation
+          
         </p>
       </div>
     </div>

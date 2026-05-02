@@ -214,13 +214,8 @@ export default function SiteScripts() {
     }
   });
 
-  // Language toggle (EN <-> AR)
-  const root = document.getElementById('rootHtml');
-  document.getElementById('langBtn').addEventListener('click', ()=>{
-    const isAr = root.lang === 'ar';
-    if(isAr){ root.lang = 'en'; root.removeAttribute('dir'); }
-    else    { root.lang = 'ar'; root.setAttribute('dir','rtl'); }
-  });
+  // Language toggle removed — Arabic translation no longer ships.
+  // The "عربي" button is kept as a decorative element in the nav.
 
   /* ============================================================
      "How it works" — pin the entire section, scroll the right column.
@@ -674,11 +669,6 @@ export default function SiteScripts() {
     return () => {
       cleanups.forEach((c) => c());
       (window as any).__mwafakInit = false;
-    };
-  }, []);
-
-  return null;
-}
     };
   }, []);
 
