@@ -46,6 +46,10 @@ export default function Nav() {
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
           </svg>
         </button>
+        {/* Decorative — Arabic translation not implemented; click handler intentionally omitted */}
+        <button className="pill" id="langBtn" data-cursor aria-label="Switch language">
+          عربي
+        </button>
         <a href="#booking" className="btn btn-primary btn-liquid no-magnet" data-cursor style={{ padding: "10px 22px" }}>
           Book Now
           
